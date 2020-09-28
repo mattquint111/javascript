@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(112, 31, 153);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(75, 161, 196);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 5px;
+    background-color: darkblue;
+    color: rgb(243, 85, 182);
+}
+
