@@ -14,6 +14,7 @@ addButton.addEventListener('click', function() {
     if (newTask === '') {
         alert("Task field can't be left blank");
         newTask = 'New task name'
+        
     }
     inputText.Value = '' //clear input field when ADD is clicked
 
