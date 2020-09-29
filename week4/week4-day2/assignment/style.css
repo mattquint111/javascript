@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input {
+    display: flex;
+}
+
+#inputLabel {
+    color: rgb(107, 107, 107);
+    padding-right: 15px;
+}
+
+#inputText {
+    border: 3px solid black;
+    color: rgb(145, 144, 144);
+    margin-right: 10px;
+}
+
+#addButton {
+    background-color: #34a5da;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80px;
+}
+
+#pendingTasks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:  rgb(107, 107, 107);
+}
+
+#taskList {
+    list-style: none;
+    width: 100%;
+}
+
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #34a5da;
+    margin: 5px;
+    padding: 10px;
+    width: 300px;
+}
+
+#taskList input {
+    padding-right: 5px;
+    color: white;
+    background-color: #34a5da;
+    margin-right: 10px;
+}
+
+#taskList label {
+    margin-right: 30px;
+}
+
+#taskList button {
+    border: none;
+    text--size: .8em;
+    color: rgb(209, 209, 209);
+    background-color: #34a5da;
+
+}
+
+#completedTaskList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+}
+
+#completedTaskList h2 {
+    color:  rgb(107, 107, 107);
+}
+
+#completedTaskList li {
+    color: white;
+    background-color: #34a5da;
+    margin: 5px;
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#completedTaskList input {
+    padding-right: 5px;
+    color: white;
+    background-color: #34a5da;
+    margin-right: 10px;
+}
+
+#completedTaskList label {
+    margin-right: 30px;
+}
+
+#completedTaskList button {
+    border: none;
+    text--size: .8em;
+    color: rgb(209, 209, 209);
+    background-color: #34a5da;
+}
