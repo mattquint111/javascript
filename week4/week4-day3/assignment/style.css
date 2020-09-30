@@ -1,0 +1,162 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#restaurantDescription {
+    width: 70%;
+}
+
+.menuFilterButton {
+    margin: 5px;
+    background-color: white;
+    border: none;
+}
+.menuFilterButton:hover {
+    color: gray;
+}
+
+#menus {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.menuTitle {
+    color: rgb(53, 53, 53);
+    font-size: 2em;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+#menus {
+    width: 80%
+}
+
+.menutItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.menuItem {
+    display: flex;
+    justify-content: space-between;
+}
+.menuItem img {
+    margin: 5px 40px 5px 5px;
+}
+
+.itemText {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+
+.itemTitle {
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    margin: 10px;
+    padding-right: 20px;
+    /* max-width: 150px; */
+}
+
+.itemDescription {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 700px;
+}
+
+.itemPrice {
+    margin: 10px;
+    color: rgb(53, 53, 53);
+    justify-self: flex-end;
+}
+
+@media only screen and (max-width: 425px) {
+    #restaurantDescription {
+        display: none;
+    }
+
+    #menuFilter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #menus {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .menuTitle {
+        display: flex;
+        flex-direction: column;
+        text-decoration: underline;
+        align-self: center;
+
+    }
+
+    #lineBreak {
+        display: none;
+    }
+
+    .menuItem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menuItem img {
+        margin: 5px 5px 5px 5px;
+    }
+    
+    .itemText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .itemTitle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .itemDescription {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
+}

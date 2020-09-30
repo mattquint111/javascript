@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="style.css" rel="stylesheet">
-</head>
-<body>
-    
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <img
+          src="images/Screen Shot 2020-09-30 at 1.38.37 PM.png"
+          id="restaurantName"
+        />
+        <p id="restaurantDescription">
+          At 5th & Taylor, we believe the simple act of sharing a meal returns
+          us to the days when what we have in common is more important than what
+          separates us. Though we may come to the table with a variety of hopes
+          and needs, we can relate through the universal necessity to nourish
+          our bodies and connect with others.
+        </p>
+      </div>
+
+      <div id="menuFilter">
+          <button type="button" class="menuFilterButton" id="fullMenuButton">Full Menu</button>
+        <button type="button" class="menuFilterButton" id="startersButton">
+          Starters
+        </button>
+        <button type="button" class="menuFilterButton" id="entreesButton">
+          Entrees
+        </button>
+        <button type="button" class="menuFilterButton" id="dessertsButton">
+          Desserts
+        </button>
+      </div>
+
+      <div id="menus">
+        <div id="startersMenu" class="menu">
+          <h2 class="menuTitle" id="startersMenuTitle"><u>Starters</u></h2>
+          <ul class="menuItems" id="startersMenuItems"></ul>
+        </div>
+
+        <div id="entreesMenu" class="menu">
+          <h2 class="menuTitle" id="entreesMenuTitle"><u>Entrees</u></h2>
+          <ul class="menuItems" id="entreesMenuItems"></ul>
+        </div>
+
+        <div id="dessertsMenu" class="menu">
+          <h2 class="menuTitle" id="dessertsMenuTitle"><u>Desserts</u></h2>
+          <ul class="menuItems" id="dessertsMenuItems"></ul>
+        </div>
+      </div>
+    </div>
+
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
