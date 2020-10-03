@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/bb485f7aec.js" crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <div id='container'>
+        <form id='inputForm'>
+            <h2>Register</h2>
+            <p>Create your account. It's free and only takes a minute.</p>
+            <div id="inputFields">
+                <div id='nameInput'>
+                    <input id='firstName' name='firstName' type="text" placeholder="First Name" size='22' required>
+                    <input id='lastName' name='lastName' type="text" placeholder="Last Name" size='22' required>
+                </div>
+                <input id='email' name='email' patter="" type="email" placeholder="email" size='50' required>
+                <div id='passwordsInput'>
+                    <div id='passwordInput'>
+                        <input id= 'password' name='password' type="password" placeholder="Password" size='40' required>
+                        <i id='showPassword' class="far fa-eye"></i>
+                    </div>
+                    <div id='confirmPasswordInput'>
+                        <input id='confirmPassword' name='password' type="password" placeholder="Confirm Password" size='40' required>
+                        <i id='showConfirmPassword' class="far fa-eye"></i>
+                    </div>
+                </div>
+                
+                <div id='termsOfUse'>
+                    <input id='checkbox' type='checkbox' >
+                    <label id='acceptTerms' for='checkbox'>I accept the terms of use & privacy policy</label>
+                </div>
 
-    
-    <script src="app.js"></script>
+                <button id='submitButton'>Submit</button>
+            </div>
+            
+                
+        </form>
+    </div>
+
+    <script src="registration-screen.js"></script>
 </body>
 </html>

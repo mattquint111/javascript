@@ -46,3 +46,4 @@ function validateForm() {
     
     if (checkbox.checked = false) alert('You must accept terms of use & privacy policy to submit form.')
 }
+
