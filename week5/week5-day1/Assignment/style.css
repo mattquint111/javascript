@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #14181c;
+    margin-top: 50px;
+    color: whitesmoke;
+
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+}
+
+#container {
+    background: #445666;
+}
+
+#scroll_content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 575px;
+    overflow: auto;
+    white-space: nowrap;
+    color: #ddeeff;
+
+}
+
+.card {
+    display: inline-block;
+    margin: 10px;
+}
+
+.poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster img{
+    border-radius: 10px;
+    cursor: pointer;
+    min-height: 100%;
+    width: 300px;
+    height: 414px;
+}
+.poster img:hover {
+    border: 2px solid rgb(2, 230, 255);
+    width: 350px;
+    height: 460px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    margin: 10px;
+}
+
+#selected {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+#selected img {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#selected-info {
+    padding-bottom: 10px;;
+}
+
+
+@media only screen and (max-width: 480px) {
+    #scroll_content {
+        display: flex;
+        flex-direction: column;
+    }
+}
