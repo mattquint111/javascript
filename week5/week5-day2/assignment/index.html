@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">JOE'S COFFEE</h1>
+      <div id="input-container">
+        <div id="order">
+          <label for="order-email">Enter Order: </label>
+          <input type="email" id="order-email" placeholder="Enter Email" />
+          <input type="text" id="order-type" placeholder="Enter Coffee Order" />
+          <button id="submit-order">Submit Order</button>
+        </div>
+
+        <div id="orders-by-email">
+          <label for="order-by-email">Get Order: </label>
+          <input
+            type="email"
+            id="order-by-email"
+            placeholder="Enter email to get order"
+            size="42px"
+          />
+          <button id="order-by-email-button">Get Order</button>
+        </div>
+
+        <div id="delete-order-container">
+          <label for="delete-email">Delete Order: </label>
+          <input
+            type="email"
+            id="delete-email"
+            placeholder="Enter Email of Order to Delete"
+            size="42px"
+          />
+          <button id="delete-email-button">Delete Order</button>
+        </div>
+      </div>
+
+      <div id="orders">
+        <button id="display-orders">Display ALL Orders</button>
+        <ul id="orders"></ul>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(#d46f4d, #3f0c05);
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 40%;
+    background: #00adbd;
+    color: white;
+    border: 4px solid #f8bf66;
+    border-radius: 10px;
+}
+
+.container button {
+    background: #0d3540;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.container input {
+    margin: 5px;
+}
+
+#input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+#order {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#orders-by-email {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+#delete-order-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+#orders {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+}
+
+#display-orders {
+    margin-top: 30px;
+}
