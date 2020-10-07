@@ -1,0 +1,7 @@
+.container-md {
+    width: 30%;
+    height: 30vh;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+}

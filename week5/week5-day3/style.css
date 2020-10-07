@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    paddnig: 0;
+    color: white;
+}
+
+.container-fluid {
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-fluid h1 {
+    color: white;
+    margin-top: 30%;
+}
+
+button {
+    color: white;
+    background: rgb(40, 53, 128);
+    border-radius: 5px;
+}
+button:hover {
+    cursor: pointer;
+}
+
+#weather-output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#weather-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#city-name {
+    font-size: 4em;
+    margin: 20px;
+    
+}
+
+.temp-display {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#temp {
+    margin-left: 10px;
+}
+
+.max-min-temp {
+    display: flex;
+    font-size: 1.5em;
+}
+
