@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #326f00;
+    font-weight: 900;
+    border-bottom: 3px solid #326f00;
+    margin-bottom: 20px;
+}
+
+#store-container {
+    background:  rgba(54, 203, 24, 0.8);
+    color: white;
+}
+#store-name-input {
+    width: 100%;
+    text-align: left;
+    border-radius: 16px 0 16px 0;
+    border-bottom: 3px solid rgb(2, 106, 2);
+    transition: 0.2s ease-out;
+}
+#store-name-input:focus {
+    background: white;
+    outline: none;
+}
+
+#store-name-input h2 {
+    font-weight: 600px;
+    font-size: 1.2em;
+}
+
+#store-name-container {
+    background: white;
+    color: black;
+    margin-top: 20px;
+}
+
+.row {
+    border: 2px solid #326f00;
+}
+
+.delete-button {
+    color: red;
+}
