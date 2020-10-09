@@ -20,6 +20,7 @@ xhr.onload = function() {
     let image = document.createElement('img');
     image.setAttribute('src', element.Poster)
     image.setAttribute('alt', "movie poster")
+    image.setAttribute('href','#selected')
     image.addEventListener('click', function() {
         let selectedMovie = new XMLHttpRequest()
         selectedMovie.open("GET", `http://www.omdbapi.com/?i=${element.imdbID}&apikey=1d4ffc1b#`)

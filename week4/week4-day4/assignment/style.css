@@ -18,7 +18,7 @@ li {
     justify-content: center;
     list-style: none;
     border: 3px solid black;
-    width: 375px;
+    width: 380px;
     margin: 20px;
     padding: 5px;
 
@@ -32,10 +32,10 @@ li {
 }
 
 img {
-    width: 100%;
-    /* max-width: 350px; */
-    height: 100%;
-    /* max-height: 270px; */
+    /* width: 100%; */
+    max-width: 350px;
+    /* height: 100%; */
+    max-height: 250px;
 }
 
 .title {

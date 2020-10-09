@@ -11,15 +11,25 @@
       <div class="container">
         <h1><u>WEEK 4 - DAY 1</u></h1>
         <h2><em>Assignment - JavaScript Exercises</em></h2>
-        <p id='date'>Today's date</p>
+        <p id="date">Today's date</p>
         <script>
-            let dt = new Date();
-            let elDate = document.getElementById('date');
-            elDate.textContent = dt;
+          let dt = new Date();
+          let elDate = document.getElementById("date");
+          elDate.textContent = dt;
         </script>
       </div>
     </div>
+    
+    <button onclick="setInterval(myTimer, 1000)">Try it</button>
+    <h1 id='demo'>TEST</h1>
+    <script>
+        function myTimer() {
+           var d = new Date();
+           document.getElementById('demo').innerHTML = d.toLocaleTimeString()
+        }
 
-    <script src="assignment.js"></script>
+    </script>
+
+    <script src="optional-assignments.js"></script>
   </body>
 </html>

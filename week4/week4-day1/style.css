@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     border: 2px solid rgb(75, 161, 196);
     border-radius: 10px;
     margin: 2px;
